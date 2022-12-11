@@ -25,7 +25,7 @@ const Services = ({ services }) => {
                     />
                   ) : (
                     <Image
-                      src={`${process.env.NEXT_PUBLIC_URL}/img/${service.photo}`}
+                      src={`/img/${service.photo}`}
                       priority={true}
                       width="100%"
                       height="100%"
