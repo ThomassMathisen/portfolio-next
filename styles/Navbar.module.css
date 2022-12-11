@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: space-between;
   font-size: 18px;
-  padding: 0 100px;
+  padding: 0px 100px;
   position: relative;
   overflow: hidden;
 }
@@ -39,7 +39,7 @@
   height: calc(100vh - 50px);
   background-color: black;
   top: 50px;
-  z-index: 999;
+  z-index: 9999;
   margin: 0;
   padding: 0;
   font-weight: bold;
