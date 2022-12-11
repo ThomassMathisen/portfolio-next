@@ -11,17 +11,12 @@ const Testimonials = () => {
       <div className={styles.wrapper}>
         {users.map((user) => (
           <div className={styles.card} key={user.id}>
-            <Image
-              src={`${process.env.NEXT_PUBLIC_URL}/img/${user.logo}`}
-              width="30"
-              height="30"
-              alt=""
-            />
+            <Image src={`/img/${user.logo}`} width="30" height="30" alt="" />
             <p className={styles.comment}>&ldquo;{user.comment}&rdquo;</p>
             <div className={styles.person}>
               <Image
                 className={styles.avatar}
-                src={`${process.env.NEXT_PUBLIC_URL}/img/${user.avatar}`}
+                src={`/img/${user.avatar}`}
                 width="45"
                 height="45"
                 alt=""
