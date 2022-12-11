@@ -1,5 +1,5 @@
 import styles from "../styles/Intro.module.css";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Circle from "./Circle";
 
 const Intro = () => {
@@ -8,7 +8,7 @@ const Intro = () => {
       <Circle backgroundColor="#01c686" top="-45vh" left="-45vh" />
       <div className={styles.card}>
         <h1 className={styles.title}>
-          <span className={styles.brandName}>AVOCADO</span>
+          <span className={styles.brandName}>AV0CAD0 </span>
           DIGITAL PRODUCT AGENCY
         </h1>
         <p className={styles.desc}>
@@ -23,6 +23,7 @@ const Intro = () => {
           layout="fill"
           objectFit="cover"
           alt=""
+          priority={true}
         />
       </div>
     </div>
