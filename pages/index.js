@@ -3,6 +3,7 @@ import Intro from "../components/Intro";
 import Services from "../components/Services";
 import styles from "../styles/Home.module.css";
 import { data } from "../data";
+import Testimonials from "../components/Testimonials";
 
 export default function Home({ services }) {
   return (
@@ -14,6 +15,7 @@ export default function Home({ services }) {
       </Head>
       <Intro />
       <Services services={services} />
+      <Testimonials />
     </div>
   );
 }
